@@ -12,11 +12,11 @@ In addition to using player names, Glacier also supports special identifiers for
 * `me` - yourself (executor of command)
 * `all` - everyone in the server
 * `others` - everyone in the server except yourself
-* `admins` - all admins in the server (rank `moderator` or higher) -- TO IMPLEMENT
-* `nonadmins` - everyone except admins (rank `moderator` or higher) -- TO IMPLEMENT
-* `#NUM` - a select number of random people in the server -- TO IMPLEMENT
-* `@USERNAME` - targets a player whose username matches exactly, case-insensitive -- TO IMPLEMENT
-* `%TEAM` - targets players of a select team -- TO IMPLEMENT
+* `admins` - all admins in the server (rank `moderator` or higher)
+* `nonadmins` - everyone except admins (rank `moderator` or higher)
+* `#NUM` - a select number of random people in the server
+* `@USERNAME` - targets a player whose username matches exactly, case-insensitive
+* `%TEAM` - targets players of a select team
 * `radius-NUM` targets players within a certain radius around you (in studs) -- TO IMPLEMENT  
   
 Placing `-` before any selector inverts the selection -- TO IMPLEMENT  
