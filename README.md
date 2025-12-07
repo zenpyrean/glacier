@@ -80,6 +80,13 @@ This example:
 # SECTION 2: COMMAND USAGE
 
 *Content pending or can be filled with a list of available commands and syntax examples.*
+---
+
+# SECTION 3: CUSTOM COMMANDS
+
+## Creating Custom Commands
+
+Glacier provides a straightforward method for defining custom commands. *Details on usage, syntax, and examples can be provided here.*
 Example:
 ```luau
 local lib = require(script.Parent.Parent.Parent.lib)
@@ -101,10 +108,3 @@ local module = {
 }
 return module
 ```
----
-
-# SECTION 3: CUSTOM COMMANDS
-
-## Creating Custom Commands
-
-Glacier provides a straightforward method for defining custom commands. *Details on usage, syntax, and examples can be provided here.*
