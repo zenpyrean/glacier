@@ -80,7 +80,27 @@ This example:
 # SECTION 2: COMMAND USAGE
 
 *Content pending or can be filled with a list of available commands and syntax examples.*
+Example:
+```luau
+local lib = require(script.Parent.Parent.Parent.lib)
 
+local module = {
+	firstargplayer = false; --true if the command takes *MULTIPLE ONLINE* PLAYERS as the first argument, in any other case, turn this off! if false, you will need custom logic to get the player you want.
+	commands = {"customcommand","yourcommand"},--prefix of the command
+	permission = 1, --minimum permission needed to execute this command
+	args = {"none"},-- how many arguments this command can take. args = {"none"} / {"inf"} / {min, max} / {exact}
+	usage = "customcommand",--how to use this command (syntax)
+	whatisthis = "",--info about this command
+	run = function(plr, user)
+		--your code here
+		lib.notif("Hello world!","My command")
+	end
+
+
+
+}
+return module
+```
 ---
 
 # SECTION 3: CUSTOM COMMANDS
